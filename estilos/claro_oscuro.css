@@ -1,0 +1,44 @@
+/* Estilo para tema oscuro */
+body.tema_negro {
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  #alternar_tema {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px 15px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  #alternar_tema:hover{
+    background-color: #007bff;
+    transform: scale(1.05);
+  }
+
+body.tema_negro nav {
+    background-color: #222;
+  }
+  
+  body.tema_negro .producto {
+    background-color: #1e1e1e;
+    color: #ddd;
+  }
+  
+  body.tema_negro button {
+    background-color: #333;
+    color: #fff;
+  }
+  body.tema_negro .item{
+    background-color: #2a2a2a;
+    color: #fff;
+    border: 1px solid #444;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  }
+  

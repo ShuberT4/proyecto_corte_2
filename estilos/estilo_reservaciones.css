@@ -1,0 +1,133 @@
+
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; 
+    color: #333; 
+    background-image: url(/imagenes/imagen_de_fondo.png);
+  }
+  /*logo */
+  header img {
+    width: 80px; 
+    border-radius: 5px; 
+  }
+  header {
+    background-color: #333; 
+    text-align: center;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px;
+    font-size: 2.5em;
+    color: #000000;
+  }
+  
+  .head {
+    display: block;
+    text-align: center;
+    font-size: 1.8em;
+    color: #333;
+    margin: 20px 0;
+  }
+  
+  /* Navegación */
+  nav {
+    background-color: #444; 
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none; 
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none; 
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease; /* Transición suave */
+  }
+  
+  nav ul li a:hover {
+    background-color: #ffa500; 
+    color: #fff; 
+    border-radius: 5px;
+  }
+  
+  /* Formulario */
+  form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 40px; 
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    text-align: left; 
+}
+  
+  label {
+  display: block;
+  margin: 15px 0 15px; /* Añade espacio entre el label y el campo */
+  font-weight: bold;
+  padding-left: 5px; 
+  }
+  
+  input, select, button {
+    width: calc(100% - 10px); /* Resta un poco de ancho para evitar que toque los bordes */
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  button {
+    width: auto; 
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px; 
+    transition: background-color 0.3s ease;
+    display: inline-block; 
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 2em;
+    }
+  
+    form {
+      max-width: 90%; /* Ajustar el formulario en pantallas pequeñas */
+    }
+  
+    nav ul {
+      flex-direction: column; /* Navegación vertical */
+      align-items: center;
+    }
+  
+    nav ul li {
+      margin-bottom: 10px;
+    }
+  }
+  

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contancto</title>
+    <link rel="stylesheet" href="/estilos/estilo_contancto.css">
+    <link rel="stylesheet" href="/estilos/claro_oscuro.css">
+</head>
+<body>
+    <header>
+        <img src="/imagenes/logo.png" alt="Bienvenidos a Cafe & Co" style="width:50px">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./carrito.html">Carrito</a></li>
+            <li><a href="./Contancto.html">Contancto</a></li>
+            <li><a href="./reservas.html">Reservaciones</a></li>
+        </ul>
+    </nav>
+   
+    <section id="contact-info">
+        <h2>Informacion de Contacto</h2>
+
+        <p><strong>Dirección:</strong>Calle 76 Carrera 20B Número 81, Bogotá, Colombia</p>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d7953.976698151966!2d-74.13353999484505!3d4.596109425808427!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sco!4v1744985162754!5m2!1ses!2sco" 
+        width="600" 
+        height="450" 
+        style="border:0;" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+    
+        <p><strong>Teléfono:</strong><a href="tel: +573006547901"> +57 300 654 7901</a></p>
+        <p><strong>Correo Electronico:</strong><a href="milto:Cafe&Co@gmail.com"> Cafe&Co@gmail.com</a></p>
+    </section>
+    <section id="contact-info">
+        <h2>Contacto</h2>
+        <form id="contactoForm">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea name="mensaje" id="mensaje" rows="5" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="confirmacionMensaje" style="display: none; color: green; font-weight: bold;"></div>
+    </section>
+    <script src="/logica_js/contacto.js"></script>
+    <script src="/logica_js/claro_oscuro.js"></script>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservaciones</title>
+    <link rel="stylesheet" href="/estilos/estilo_reservaciones.css">
+    <link rel="stylesheet" href="/estilos/claro_oscuro.css">
+</head>
+<body>
+    <header>
+        <img src="/imagenes/logo.png" alt="Bienvenidos a Cafe & Co" style="width:50px">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="./index.html">Inicio</a></li>
+            <li><a href="./carrito.html">Carrito</a></li>
+            <li><a href="./Contancto.html">Contancto</a></li>
+            <li><a href="./reservas.html">Reservaciones</a></li>
+        </ul>
+    </nav>  
+    
+    <h1>Reserva de Mesa</h1>
+    <form id="reservacionform">
+        <label for="name">Nombre: </label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Correo Electronico: </label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="date">Fecha y Hora: </label>
+        <input type="datetime-local" id="date" name="date" required>
+
+        <label for="guests">Número de Personas:</label>
+        <input type="number" id="guests" name="guests" min="1" max="10" required>
+
+        <button type="submit">Reservar</button>
+        <div id="confirmacionMensage" style="display: none; color: green; font-weight: bold;"></div>
+
+    </form>
+    <script src="/logica_js/reservas.js"></script>
+    <script src="/logica_js/claro_oscuro.js"></script>
+</body>
+</html>

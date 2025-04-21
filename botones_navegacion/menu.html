@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menú | Café & Co</title>
+  <link rel="stylesheet" href="/estilos/estilo_menu.css" />
+  <link rel="stylesheet" href="/estilos/claro_oscuro.css">
+</head>
+<body>
+  <header>
+    <header>
+      <img src="/imagenes/logo.png" alt="Bienvenidos a Cafe & Co" style="width:50px">
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./carrito.html">Carrito</a></li>
+        <li><a href="./Contancto.html">Contancto</a></li>
+        <li><a href="./reservas.html">Reservaciones</a></li>
+      </ul>
+    </nav>
+    
+    <h2>Catálogo de Productos</h2>
+    </header>
+
+    <main class="catalogo-productos">
+      <section class="producto">
+        <img src="/imagenes/cafe.jpg" alt="Café Negro" />
+        <h3>Café Negro</h3>
+        <p>Café negro sin azúcar.</p>
+        <p><strong>5.000 pesos</strong></p>
+        <button onclick="addToCart('Café Negro', 5000)">Pedir</button>
+      </section>
+    
+      <section class="producto">
+        <img src="/imagenes/capuchino.jpeg" alt="Capuchino" />
+        <h3>Capuchino</h3>
+        <p>Capuchino sin azúcar, personalizable a gusto.</p>
+        <p><strong>10.000 pesos</strong></p>
+        <button onclick="addToCart('Capuchino', 10000)">Pedir</button>
+      </section>
+    
+      <section class="producto">
+        <img src="/imagenes/pan_de_queso.jpeg" alt="Pan de Queso" />
+        <h3>Pan de Queso</h3>
+        <p>Pan de queso con relleno de bocadillo.</p>
+        <p><strong>3.000 pesos unidad</strong></p>
+        <button onclick="addToCart('Pan de Queso', 3000)">Pedir</button>
+      </section>
+    
+      <section class="producto">
+        <img src="/imagenes/pan_rollo.jpeg" alt="Pan Rollo" />
+        <h3>Pan Rollo</h3>
+        <p>Pan con corteza crujiente recubierto de chocolate.</p>
+        <p><strong>6.000 pesos unidad</strong></p>
+        <button onclick="addToCart('Pan Rollo', 6000)">Pedir</button>
+      </section>
+    
+      <section class="producto">
+        <img src="/imagenes/pastel_de_pollo.jpeg" alt="Pastel de Pollo" />
+        <h3>Pastel de Pollo</h3>
+        <p>Pastel con relleno de pollo.</p>
+        <p><strong>3.000 pesos unidad</strong></p>
+        <button onclick="addToCart('Pastel de Pollo', 3000)">Pedir</button>
+      </section>
+    
+      <section class="producto">
+        <img src="/imagenes/pastel_de_queso.jpeg" alt="Pastel de Queso" />
+        <h3>Pastel de Queso</h3>
+        <p>Pastel de queso cremoso por dentro.</p>
+        <p><strong>10.000 pesos unidad</strong></p>
+        <button onclick="addToCart('Pastel de Queso', 10000)">Pedir</button>
+      </section>
+    
+    </main>
+    <script src="/logica_js/menu.js"></script>
+    <script src="/logica_js/scroll.js"></script>
+    <script src="/logica_js/carrito.js"></script>
+    <script src="/logica_js/claro_oscuro.js"></script>
+</body>
+</html>

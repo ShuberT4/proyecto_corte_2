@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tu Carrito</title>
+  <link rel="stylesheet" href="/estilos/carrito.css"/>
+  <link rel="stylesheet" href="/estilos/claro_oscuro.css">
+</head>
+<body>
+    <header>
+    <img src="/imagenes/logo.png" alt="Bienvenidos a Cafe & Co" style="width:50px">
+    </header>
+
+    <nav class="botoenes_navegacion">
+      <ul>
+        <li><a href="./index.html">Inicio</a></li>
+        <li><a href="./carrito.html">Carrito</a></li>
+        <li><a href="./Contancto.html">Contancto</a></li>
+        <li><a href="./reservas.html">Reservaciones</a></li>
+      </ul>
+    </nav>
+    <h1>Carrito de Compras</h1>
+    <ul id="cart-items"></ul>
+    <p><strong>Total: $<span id="total">0</span></strong></p>
+    <button id="clear-cart">Vaciar Carrito</button>
+
+
+    <script src="/logica_js/carrito.js"> </script>
+    <script src="/logica_js/claro_oscuro.js"></script>
+</body>
+</html>

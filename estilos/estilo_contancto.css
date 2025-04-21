@@ -1,0 +1,162 @@
+/* General */
+body {
+  font-family: 'Georgia', serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(/imagenes/imagen_de_fondo.png);
+  color: #4a4a4a; 
+  line-height: 1.6; /* Mejor legibilidad */
+}
+/*logo*/
+header img {
+  width: 80px; 
+  border-radius: 5px; 
+}
+header {
+  background-color: #333; 
+  text-align: center;
+}
+
+/* Navegación */
+nav {
+  background-color: #3a3a3a; 
+  padding: 15px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #f8f5f2; 
+  font-weight: bold;
+  font-size: 1.1em;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: color 0.3s ease, background-color 0.3s ease; /* Transiciones suaves */
+}
+
+nav ul li a:hover {
+  color: #3a3a3a; 
+  background-color: #d4a373; 
+  border-radius: 50px; 
+}
+
+/* Encabezado */
+h2 {
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #3a3a3a;
+  margin: 40px 0;
+  font-family: 'Playfair Display', serif; /* Tipografía elegante */
+}
+
+/* Sección de Información de Contacto */
+#contact-info {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 25px;
+  background-color: #ffffff; 
+  border: 2px solid #e0e0e0; 
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); 
+}
+
+iframe {
+  width: 100%;
+  height: 350px;
+  border: none;
+  border-radius: 10px; 
+  margin-top: 15px;
+}
+
+/* Información Adicional (Teléfono y Correo) */
+p {
+  margin: 15px 0;
+  font-size: 1.1em;
+}
+
+p a {
+  color: #d4a373; 
+  text-decoration: none;
+  font-weight: bold;
+  border-bottom: 2px solid #d4a373; 
+}
+
+p a:hover {
+  color: #3a3a3a; 
+  border-bottom-color: #3a3a3a;
+}
+
+/* Formulario */
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 35px;
+  background-color: #ffffff;
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  margin: 15px 0 5px;
+  font-weight: bold;
+  font-size: 1.1em;
+  color: #3a3a3a;
+}
+
+input, textarea, button {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: #d4a373;
+  box-shadow: 0 0 5px rgba(212, 163, 115, 0.5);
+}
+
+button {
+  background-color: #d4a373;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1em;
+  transition: background-color 0.3s ease;
+  width: auto;
+}
+
+button:hover {
+  background-color: #d4a373; 
+  transform: scale(1.01);
+}
+
+/* Mensaje de Confirmación */
+#confirmacionMensaje {
+  margin-top: 20px;
+  padding: 15px;
+  color: #ffffff;
+  background-color: #64e983; 
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+}
